@@ -15,6 +15,7 @@
     <groupId>ute</groupId>
     <artifactId>WebSachTre0-8</artifactId>
     <version>0.0.1-SNAPSHOT</version>
+         <packaging>war</packaging>
     <name>WebSachTre0-8</name>
     <description>Spring Boot Project with MapStruct</description>
 
