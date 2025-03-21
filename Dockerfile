@@ -7,6 +7,9 @@ COPY pom.xml .
 COPY src ./src
 RUN mvn clean package -DskipTests
 
+# Debug: Kiểm tra nội dung thư mục target
+RUN ls -l /app/target
+
 # Run stage
 FROM eclipse-temurin:17-jre-jammy
 WORKDIR /app
